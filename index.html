@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body>
+<body id="top-of-page">
     <div class="underlay"></div>
     <header>
         <a href="/">
@@ -46,7 +46,7 @@
     <main>
         <!--About Section-->
         <section>
-            <div>
+            <div class="sticky-header">
                 <h2 class="lightText">About</h2>
             </div>
             <div class="about-contents">
@@ -57,7 +57,7 @@
         </section>
         <!--Experience Section-->
         <section>
-            <div>
+            <div class="sticky-header">
                 <h2 class="lightText">Experience</h2>
             </div>
             <div class="experience-contents">
@@ -159,7 +159,7 @@
         </section>
         <!--Project Section-->
         <section>
-            <div>
+            <div class="sticky-header">
                 <h2 class="lightText">Projects</h2>
             </div>
             <div class="project-contents">
@@ -239,7 +239,13 @@
         </section>
     </main>
     <footer>
-        <p>Placeholders</p>
+        <p>
+            Coded in <a href="https://code.visualstudio.com/" target="_blank" class="anchor-text">VSCode</a> by yours truly. <br />Built with HTML & CSS, and deployed with <a href="https://www.netlify.com/" target="_blank" class="anchor-text">Netlify</a>. <br />All text is set in the <a href="https://rsms.me/inter/" target="_blank" class="anchor-text">Inter</a> typeface.
+        </p>
+
+        <a href="#top-of-page" class="scroll-to-top">
+            <i class="fa-solid fa-arrow-up"></i>
+        </a>
     </footer>
 </body>
 </html>
